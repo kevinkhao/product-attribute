@@ -1,0 +1,2 @@
+- More robust/less error-prone functionality for required fields
+- More flexible/configurable behaviour for profile fields (instead of only default/nondefault fields)

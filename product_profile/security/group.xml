@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
 
-    <record id="group_product_profile" model="res.groups">
-        <field name="name">Product Profile</field>
-        <field name="category_id" ref="base.module_category_hidden"/>
+    <record id="group_product_profile_user" model="res.groups">
+        <field name="name">Display Product Profile fields</field>
+        <field name="category_id" ref="base.module_category_product"/>
+    </record>
+
+    <record id="group_product_profile_manager" model="res.groups">
+        <field name="name">Manage Product Profiles</field>
+        <field name="category_id" ref="base.module_category_product"/>
     </record>
 
 </odoo>
